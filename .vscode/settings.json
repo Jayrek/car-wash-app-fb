@@ -1,0 +1,14 @@
+{
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "search.exclude": {
+    "**/.fvm": true,
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.dart": "${capture}.freezed.dart,${capture}.g.dart"
+  },
+  "files.exclude": {
+    "**/.gitkeep": true
+  }
+}
