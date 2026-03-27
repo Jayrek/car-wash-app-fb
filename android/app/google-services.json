@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284558425346",
+    "project_id": "car-wash-app-2e4ec",
+    "storage_bucket": "car-wash-app-2e4ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284558425346:android:87f5e8501de6197e82561b",
+        "android_client_info": {
+          "package_name": "com.jrektabasa.car_wash_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCLFRkMEjNzA_Cb0U0zwfSUD38vPMB3P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
