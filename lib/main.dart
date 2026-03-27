@@ -1,6 +1,17 @@
+import 'package:car_wash_app/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+    debugPrint('Firebase initialized');
+  } catch (e) {
+    debugPrint('Error initializing Firebase: $e');
+  }
   runApp(const MyApp());
 }
 
